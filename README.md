@@ -1,1 +1,3 @@
 # KOKOA CLONE UPDATE
+
+HTML & CSS are funny
