@@ -3,8 +3,10 @@
 @import "variables.css";
 /*components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 /*screens*/
 @import "screens/login.css";
+
 body {
   font-family: "Open Sans", sans-serif;
 }
