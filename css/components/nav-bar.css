@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
-  padding: 22px 50px;
+  padding: 17px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -13,4 +13,23 @@
 }
 .nav__link {
   color: #2f363e;
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  left: 17px;
+  bottom: 17px;
+}
+
+.nav__notify {
+  position: absolute;
+  left: 35px;
+  bottom: 28px;
+}
+.common__notification {
+  display: flex;
+  background-color: tomato;
+  border-radius: 2.5px;
+  width: 5px;
+  height: 5px;
 }
