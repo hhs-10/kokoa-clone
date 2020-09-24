@@ -4,7 +4,7 @@
 }
 
 #chat-screen .alt-header,
-.status-bar {
+#chat-screen .status-bar {
   position: fixed;
   width: 100%;
   box-sizing: border-box;

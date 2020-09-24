@@ -1,6 +1,7 @@
 .icon-raw {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 13px;
 }
 .icon-raw__icon {
   display: flex;
