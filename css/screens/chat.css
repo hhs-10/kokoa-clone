@@ -32,6 +32,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 .message-row img {
   width: 50px;
@@ -61,4 +62,81 @@
 .message__time {
   opacity: 0.8;
   font-size: 14px;
+}
+
+.message-row--own {
+  display: flex;
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+.message-row--own .message__bubble {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  position: relative;
+  width: 90%;
+}
+.reply input {
+  padding: 10px;
+  height: 30px;
+  width: 100%;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+.reply input {
+  border: var(--main-border);
+  border-radius: 20px;
+}
+.reply__column:last-child > i {
+  right: 33px;
+  top: 10px;
+}
+.reply button {
+  background-color: var(--yellow);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size:24px;
+ 
+.reply i {
+  opacity: 0.5;
+}
+.reply button i {
+  opacity: 1;
+}
+.reply button:focus,
+.reply button:active {
+  outline: none;
 }
