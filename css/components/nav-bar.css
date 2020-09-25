@@ -19,6 +19,7 @@
   position: absolute;
   left: 17px;
   bottom: 17px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notify {
@@ -32,4 +33,53 @@
   border-radius: 2.5px;
   width: 5px;
   height: 5px;
+}
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes appearNavAnimation {
+  from {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nav {
+  animation: appearNavAnimation 1s ease-in-out;
+}
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nav__btn {
+  transform: translateY(70px);
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+.nav__btn:first-child {
+  animation-delay: 0.7s;
+}
+.nav__btn:nth-child(2) {
+  animation-delay: 1.1s;
+}
+.nav__btn:nth-child(3) {
+  animation-delay: 1.5s;
+}
+.nav__btn:nth-child(4) {
+  animation-delay: 1.9s;
 }
