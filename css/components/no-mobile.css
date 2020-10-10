@@ -10,9 +10,34 @@
   align-items: center;
   font-size: 32px;
 }
+.no-mobile span,
+.no-mobile__bigScreen span {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+.no-mobile__bigScreen {
+  position: absolute;
+  z-index: 90;
+  height: 1000vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
 
 @media screen and (max-width: 600px) {
   .no-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .no-mobile__bigScreen {
     display: none;
   }
 }
