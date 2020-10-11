@@ -95,13 +95,13 @@
 
 .reply {
   position: fixed;
-  bottom: 0;
+  bottom: 1%;
   width: 100%;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 25px;
+  padding: 10px 25px;
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;
 }
@@ -164,9 +164,9 @@
   opacity: 0;
 }
 .reply input:focus {
-  width: 98vw;
-  transform: translateX(-11%) translateY(-60px);
+  width: 95vw;
+  transform: translateX(-13%) translateY(-78px);
 }
 .reply:focus-within {
-  transform: translateY(60px);
+  transform: translateY(80px);
 }

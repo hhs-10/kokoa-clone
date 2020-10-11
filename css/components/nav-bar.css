@@ -47,7 +47,7 @@
 }
 @keyframes appearNavAnimation {
   from {
-    transform: translateY(60px);
+    transform: translateY(65px);
     opacity: 0;
   }
   to {

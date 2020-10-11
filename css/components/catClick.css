@@ -1,0 +1,11 @@
+.cat-chat:active img {
+  width: 200px;
+  height: 200px;
+}
+.cat-up:active img {
+  position: absolute;
+  top: -402px;
+  right: 50px;
+  width: 200px;
+  height: 200px;
+}

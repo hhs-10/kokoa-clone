@@ -10,6 +10,8 @@
 @import "components/icon-raw.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/moreAnimation.css";
+@import "components/catClick.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
